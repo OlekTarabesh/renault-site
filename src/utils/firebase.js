@@ -64,3 +64,5 @@ const firebaseConfig = {
     //IF USER DATA EXISTS WE JUST RETURN userDocRef
     return userDocRef;
   }; 
+
+//   git commit -m 'My first commit. Already added firebase auth with signInWithPopup and after sign in we set document in dataBase.'
