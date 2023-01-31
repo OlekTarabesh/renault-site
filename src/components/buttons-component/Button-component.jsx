@@ -4,14 +4,14 @@
 // import { ReactComponent as Hours } from '../../assets/hours.svg'; 
 
 
-import './Button-styles.css';
+import './Button-styles.scss';
 
 
 const Button = ({btn}) => {
     const {title, icon} = btn;
     console.log(btn);
     return (
-        
+            
                <button className='btn1'><span>{icon}</span>{title}</button>
         
     ) 

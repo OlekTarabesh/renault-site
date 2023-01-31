@@ -17,7 +17,7 @@ const Home = () => {
                 
             <div className="header-body">
                 <img src="https://images.unsplash.com/photo-1594502225401-a9eab8b405dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80" alt="title-img" className='header-img'/>
-                <div className="header-title">RIDE VAGINA</div>
+                <div className="header-title">DRIVE YOUR DREAM</div>
             </div>
 
             <div className="buttons-wrapper">

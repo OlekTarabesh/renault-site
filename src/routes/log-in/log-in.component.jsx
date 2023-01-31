@@ -1,4 +1,5 @@
 import { signInWithGooglePopup, createUserDocumentFromAuth } from '../../utils/firebase.js';
+// import SignUpForm from '../../components/sign-up/sign-up-form.component.jsx';
 import './log-in.styles.css'
 
 const LogIn = () => {
@@ -8,10 +9,7 @@ const LogIn = () => {
         const userDocRef = createUserDocumentFromAuth(user);
     }
     return (
-        <div className="log-in-wrapper">
-            <h1 className="log-in">You should LOG IN!!!</h1>
-            <button className='sign-in' onClick={logGoogleUser}>Sign In With Google Popup</button>
-        </div>
+        <button className='sign-in' onClick={logGoogleUser}>Sign In With Google Popup</button>
     )
 }
 

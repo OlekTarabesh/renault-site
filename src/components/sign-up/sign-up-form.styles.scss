@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to right, white, rgb(215, 214, 214));
+}
+
+.sign-up-form {
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 30px;
+    width: 380px;
+    height: 400px;
+    border-radius: 4px;
+    background-color: rgb(194, 189, 189);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .sign-up-form-title {
+        text-align: center;
+    }
+    .sign-up-form-lable {
+        margin-top: 25px;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    .sign-up-form-input {
+        height: 25px;
+        margin: 0 10px;
+        // content: '';
+        border: 5px;
+        border-radius: 4px;
+        
+    }
+    .button-wrapper {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    .submit {
+        margin: 0 auto;
+        margin: 30px 10px;
+        height: 25px;
+        width: 45%;
+        border: 1px;
+        border-radius: 3px;
+        
+    }
+    .submit-with-google {
+        margin: 0 auto;
+        margin: 30px 10px;
+        height: 25px;
+        width: 45%;
+    }
+    .button1:hover {
+        transition: 0.3s;
+        background-color: rgb(219, 219, 218);
+    }
+    
+    
+}
+
+
+
